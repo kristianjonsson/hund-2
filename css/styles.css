@@ -1,0 +1,125 @@
+@import "clear.css";
+
+
+
+body{
+  background: #C9C9BA;
+    font-family: Geneva,Arial;
+}
+
+a {
+    text-decoration: none;
+    color: darksalmon;
+}
+
+header {
+      background: #3C7177; 
+    position: relative;
+     height: 100px;
+   
+}
+
+nav {
+      background: #9E9E9E; 
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 1024px;
+       margin-bottom: 1px;
+    
+      
+}
+
+nav li{
+    
+    display: inline-block;
+   
+}
+
+
+ nav ul{
+ 
+   float:right;
+}
+
+nav a {
+    
+     color: #FFFFFF;
+    font-size: 25px; 
+    padding-left: 10px;
+    padding-right: 10px;
+   
+}
+
+nav a:hover {
+    background: #606060;
+ 
+}
+
+
+
+
+
+section {
+     background: #FFFFFF;
+    height: 500px;
+      padding-top: 10px;
+     padding-bottom: 20px;
+   
+}
+
+h1 {
+    
+    color:#FFFFFF;
+     font-size: 38px;
+    padding: 8px;
+    
+}
+
+ h2 {
+     background: #3C7177;
+    color:#FFFFFF;
+     font-size: 20px;
+    padding: 2px;
+      margin-bottom: 6px;
+}
+
+article {
+    // background: #d40ed4;
+     display: inline-block;
+  width: 700px;
+     height: 500px;
+     padding: 4px;
+    padding-top: 0;
+  
+ 
+}
+
+.stamData img {
+    float:right;
+    margin: 2px;
+    
+}
+
+footer{
+     background: #3C7177;
+    color:#C9C9BA;
+    height:30px;
+    padding:4px;
+}
+
+
+.wrapper {
+    background; #FFFFFF;
+    width: 1024px;
+     margin: 0 auto;
+}
+
+
+.dogBox{
+   
+   background: #3C7177;
+    width: 304px;
+    float: right;
+ padding-top: 2px;
+}
